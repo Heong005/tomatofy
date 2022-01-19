@@ -1,5 +1,6 @@
 @import url(link.css);
 @import url(badge.css);
+@import url(list.css);
 
 :root {
   --color-primary: #2584ff;
@@ -9,6 +10,11 @@
   --color-body: #918ca4;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* Typography */
 html {
   /* 62.5% of 16px = 10px */
@@ -20,6 +26,7 @@ body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
+  margin: 10px;
 }
 
 h1,
