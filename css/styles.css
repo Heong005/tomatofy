@@ -1,6 +1,7 @@
 @import url(link.css);
 @import url(badge.css);
 @import url(list.css);
+@import url(icon.css);
 
 :root {
   --color-primary: #2584ff;
