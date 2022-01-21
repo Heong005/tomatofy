@@ -3,6 +3,7 @@
 @import url(lists.css);
 @import url(icon.css);
 @import url(button.css);
+@import url(input.css);
 
 :root {
   --color-primary: #2584ff;
@@ -10,6 +11,8 @@
   --color-accent: #ff3400;
   --color-heading: #1b0760;
   --color-body: #918ca4;
+  --color-border: #ccc;
+  --border-radius: 50px;
 }
 
 *,
