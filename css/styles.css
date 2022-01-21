@@ -4,6 +4,7 @@
 @import url(icon.css);
 @import url(button.css);
 @import url(input.css);
+@import url(card.css);
 
 :root {
   --color-primary: #2584ff;
