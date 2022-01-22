@@ -1,10 +1,11 @@
 @import url(links.css);
 @import url(badge.css);
-@import url(lists.css);
+@import url(list.css);
 @import url(icon.css);
 @import url(button.css);
 @import url(input.css);
 @import url(card.css);
+@import url(plan.css);
 
 :root {
   --color-primary: #2584ff;

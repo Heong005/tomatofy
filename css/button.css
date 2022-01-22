@@ -8,10 +8,11 @@
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 1px;
-  margin: 1rem 0;
+  margin: 3rem 0 1rem 0;
   padding: 1.5rem 3rem;
   text-transform: uppercase;
   white-space: nowrap;
+  width: 100%;
 }
 
 .btn--primary {
@@ -36,8 +37,10 @@
 }
 
 .btn--outline {
+  background: 0;
   border: 2px solid var(--color-heading);
   color: var(--color-heading);
+  justify-content: center;
 }
 
 .btn--outline:hover {
