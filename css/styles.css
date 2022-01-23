@@ -7,6 +7,7 @@
 @import url(card.css);
 @import url(plan.css);
 @import url(media_object.css);
+@import url(quote.css);
 
 :root {
   --color-primary: #2584ff;
@@ -14,6 +15,7 @@
   --color-accent: #ff3400;
   --color-heading: #1b0760;
   --color-body: #918ca4;
+  --color-body-darker: #5c5577;
   --color-border: #ccc;
   --border-radius: 50px;
 }
