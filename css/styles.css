@@ -8,6 +8,7 @@
 @import url(plan.css);
 @import url(media_object.css);
 @import url(quote.css);
+@import url(grid.css);
 
 :root {
   --color-primary: #2584ff;
