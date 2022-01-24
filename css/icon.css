@@ -7,6 +7,15 @@
   fill: var(--color-primary);
 }
 
+.icon--white {
+  fill: #fff;
+}
+
+.icon--small {
+  height: 30px;
+  width: 30px;
+}
+
 .icon-container {
   align-items: center;
   background: #f3f9fa;
@@ -15,6 +24,10 @@
   height: 64px;
   justify-content: center;
   width: 64px;
+}
+
+.icon-container--accent {
+  background: var(--color-accent);
 }
 
 .icon--search {

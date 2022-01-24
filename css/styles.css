@@ -9,6 +9,7 @@
 @import url(media_object.css);
 @import url(quote.css);
 @import url(grid.css);
+@import url(testimonial.css);
 
 :root {
   --color-primary: #2584ff;
