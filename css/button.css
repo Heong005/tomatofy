@@ -12,7 +12,6 @@
   padding: 1.5rem 3rem;
   text-transform: uppercase;
   white-space: nowrap;
-  width: 100%;
 }
 
 .btn--primary {
@@ -51,6 +50,11 @@
 .btn--block {
   justify-content: center;
   width: 100%;
+}
+
+.btn--stretched {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 @media screen and (min-width: 1024px) {
