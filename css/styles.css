@@ -12,6 +12,7 @@
 @import url(testimonial.css);
 @import url(callout.css);
 @import url(collapsible.css);
+@import url(block.css);
 
 :root {
   --color-primary: #2584ff;
