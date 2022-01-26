@@ -11,6 +11,7 @@
 @import url(grid.css);
 @import url(testimonial.css);
 @import url(callout.css);
+@import url(collapsible.css);
 
 :root {
   --color-primary: #2584ff;
@@ -49,6 +50,7 @@ h2,
 h3 {
   color: var(--color-heading);
   margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 h1 {
