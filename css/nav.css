@@ -1,0 +1,62 @@
+.nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: rgb(54, 53, 53);
+  padding: 0 1rem;
+}
+
+.nav__list {
+  width: 100%;
+  margin-left: 1.5rem;
+}
+
+.nav__item {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid gray;
+}
+
+.nav__item > a {
+  color: #d2d0db;
+  display: block;
+  transition: color 0.3s;
+}
+
+.nav__item > a:hover {
+  color: #fff;
+}
+
+.nav__toggler {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .nav__toggler {
+  box-shadow: 0 0 0 3px #666;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.nav__brand {
+  transform: translateY(5px);
+}
+
+@media screen and (min-width: 768px) {
+  .nav__toggler {
+    display: none;
+  }
+
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.8rem;
+    max-height: 100%;
+    opacity: 1;
+  }
+
+  .nav__item {
+    border: 0;
+  }
+}
