@@ -14,6 +14,7 @@
 @import url(collapsible.css);
 @import url(block.css);
 @import url(nav.css);
+@import url(hero.css);
 
 :root {
   --color-primary: #2584ff;
@@ -44,7 +45,7 @@ body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
-  margin: 0;
+  margin: 1rem;
 }
 
 h1,
@@ -52,7 +53,7 @@ h2,
 h3 {
   color: var(--color-heading);
   margin-bottom: 1rem;
-  text-transform: uppercase;
+  line-height: 1.1;
 }
 
 h1 {
