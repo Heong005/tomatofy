@@ -14,6 +14,13 @@
   white-space: nowrap;
 }
 
+.btn .icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 1rem;
+  vertical-align: middle;
+}
+
 .btn--primary {
   background: var(--color-primary);
 }

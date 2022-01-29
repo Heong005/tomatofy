@@ -15,6 +15,7 @@
 @import url(block.css);
 @import url(nav.css);
 @import url(hero.css);
+@import url(domain.css);
 
 :root {
   --color-primary: #2584ff;

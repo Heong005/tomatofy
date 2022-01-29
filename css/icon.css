@@ -29,11 +29,3 @@
 .icon-container--accent {
   background: var(--color-accent);
 }
-
-.icon--search {
-  fill: #fff;
-  height: 36px;
-  margin: 6px 15px 0 0;
-  transform: rotate(-10deg);
-  width: 36px;
-}
