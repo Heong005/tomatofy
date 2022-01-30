@@ -1,5 +1,9 @@
 .plan {
-  max-width: 500px;
+  transition: transform 0.3s ease-out;
+}
+
+.plan:hover {
+  transform: scale(1.1);
 }
 
 .plan__name {
@@ -32,6 +36,15 @@
 
 .plan .card__header {
   position: relative;
+}
+
+.plan--popular {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+.plan--popular:hover {
+  transform: scale(1.15);
 }
 
 .plan--popular .card__header::before {
