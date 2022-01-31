@@ -1,4 +1,4 @@
-@import url(links.css);
+@import url(link.css);
 @import url(badge.css);
 @import url(list.css);
 @import url(icon.css);
@@ -17,6 +17,7 @@
 @import url(hero.css);
 @import url(domain.css);
 @import url(plans-block.css);
+@import url(features-block.css);
 
 :root {
   --color-primary: #2584ff;
@@ -52,7 +53,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: var(--color-heading);
   margin-bottom: 1rem;
   line-height: 1.1;
@@ -72,6 +74,7 @@ h3 {
 
 p {
   margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 /* links */
