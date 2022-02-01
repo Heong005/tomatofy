@@ -1,0 +1,30 @@
+.showcase {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
+}
+
+.showcase__heading {
+  margin-bottom: 4rem;
+  color: #fff;
+}
+
+.showcase .media__title {
+  color: #fff;
+}
+
+.block-showcase__image {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .showcase {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .showcase .grid {
+    align-items: center;
+    column-gap: 2rem;
+  }
+}

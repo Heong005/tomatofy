@@ -1,9 +1,10 @@
 .media {
   display: flex;
+  margin-bottom: 2.5rem;
 }
 
 .media__image {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .media-title {
