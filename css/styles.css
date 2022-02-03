@@ -19,6 +19,7 @@
 @import url(plans-block.css);
 @import url(features-block.css);
 @import url(showcase-block.css);
+@import url(footer.css);
 
 :root {
   --color-primary: #2584ff;
