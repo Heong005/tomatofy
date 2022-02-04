@@ -29,15 +29,28 @@
   opacity: 0.3;
 }
 
+.footer a {
+  color: #7b858b;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
 @media screen and (min-width: 768px) {
-  .footer .grid {
-    grid-template-columns: repeat(5, 1fr);
+  .footer__grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     column-gap: 2rem;
   }
 
   .footer__brand {
     order: -1;
     margin-top: 0;
+  }
+
+  .footer__copyright {
+    font-size: 1.5rem;
   }
 
   .footer .collapsible__toggler {
@@ -55,7 +68,7 @@
   }
 
   .footer__heading {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .footer__section {
