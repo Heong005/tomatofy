@@ -1,6 +1,15 @@
 .callout {
-  padding: 3rem;
+  padding: 5rem 3rem;
   border-radius: 10px;
+  position: relative;
+  top: -120px;
+}
+
+.callout-container {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  margin-bottom: -60px;
 }
 
 .callout--primary {
