@@ -9,7 +9,10 @@
 }
 
 .collapsible__toggler {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
   color: #fff;
   background: gray;
   border-radius: 50px;
