@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-brave" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Popular web-hosting service" />
     <meta name="keyword" content="best, web-hosting, budget, safe, Popular" />
@@ -10,6 +10,7 @@
     <title>Moshify/Home</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,21 +36,21 @@
 
     <section class="block block--dark block--skewed-left hero">
       <div class="container grid grid--1x2">
-        <header class="block__header hero__content">
+        <div class="block__header hero__content" data-aos="fade-up">
           <h1 class="block__heading">Cloud Hosting for Pros</h1>
           <p class="hero__tagline">
             Deploy your websites in less than 60 seconds
           </p>
           <a href="#" class="btn btn--accent btn--stretched">Get Started</a>
-        </header>
+        </div>
         <picture>
           <source
             type="image/webp"
-            srcset="images\banner.webp 1x, images\banner@2x.webp 2x"
+            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
           />
           <source
             type="image/png"
-            srcset="images\banner.png 1x, images\banner@2x.png 2x"
+            srcset="images/banner.png 1x, images/banner@2x.png 2x"
           />
           <img class="hero__image" src="images/banner.png" alt="" />
         </picture>
@@ -57,13 +58,13 @@
     </section>
 
     <section class="block container block-domain">
-      <header class="block__header">
+      <div class="block__header">
         <h2>Starting at $9 per month</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
           repudiandae!
         </p>
-      </header>
+      </div>
       <div class="input-group">
         <input
           type="text"
@@ -90,13 +91,13 @@
       <div class="grid grid--1x3">
         <div class="plan">
           <div class="card card--secondary">
-            <header class="card__header">
+            <div class="card__header">
               <h3 class="plan__name">Entry</h3>
               <span class="plan__price">$14</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge--small">10% OFF</span>
               <span class="plan__description">Easy start on the cloud</span>
-            </header>
+            </div>
             <div class="card__body">
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
@@ -111,13 +112,13 @@
 
         <div class="plan plan--popular card__header::before">
           <div class="card card--primary">
-            <header class="card__header">
+            <div class="card__header">
               <h3 class="plan__name">Entry</h3>
               <span class="plan__price">$14</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--primary badge--small">10% OFF</span>
               <span class="plan__description">Easy start on the cloud</span>
-            </header>
+            </div>
             <div class="card__body">
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
@@ -132,13 +133,13 @@
 
         <div class="plan">
           <div class="card card--secondary">
-            <header class="card__header">
+            <div class="card__header">
               <h3 class="plan__name">Entry</h3>
               <span class="plan__price">$14</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge--small">10% OFF</span>
               <span class="plan__description">Easy start on the cloud</span>
-            </header>
+            </div>
             <div class="card__body">
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
@@ -153,7 +154,6 @@
       </div>
     </section>
 
-
     <section class="block container">
       <div class="block__header">
         <h2>Host On The Cloud to Keep Growing</h2>
@@ -163,7 +163,7 @@
         </p>
       </div>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="slide-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#easy"></use>
@@ -172,12 +172,12 @@
           <h3 class="feature__heading">Super Easy to Use</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            in!Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            in!
+            in!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Similique, in!
           </p>
           <a href="#" class="link-arrow">Learn more</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
@@ -187,7 +187,7 @@
           <img class="feature__image" src="images/easy.jpg" alt=""
         /></picture>
       </article>
-    
+
       <article class="grid grid--1x2 feature">
         <div class="feature__content">
           <span class="icon-container">
@@ -198,14 +198,14 @@
           <h3 class="feature__heading">Super Easy to Use</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            in!Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            in!
+            in!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Similique, in!
           </p>
           <a href="#" class="link-arrow">Learn more</a>
         </div>
         <img class="feature__image" src="images/fast.png" alt="" />
       </article>
-    
+
       <article class="grid grid--1x2 feature">
         <div class="feature__content">
           <span class="icon-container">
@@ -216,14 +216,14 @@
           <h3 class="feature__heading">Super Easy to Use</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            in!Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            in!
+            in!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Similique, in!
           </p>
           <a href="#" class="link-arrow">Learn more</a>
         </div>
         <img class="feature__image" src="images/wordpress.jpg" alt="" />
       </article>
-    
+
       <article class="grid grid--1x2 feature">
         <div class="feature__content">
           <span class="icon-container">
@@ -234,22 +234,20 @@
           <h3 class="feature__heading">Super Easy to Use</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            in!Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            in!
+            in!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Similique, in!
           </p>
           <a href="#" class="link-arrow">Learn more</a>
         </div>
         <img class="feature__image" src="images/support.jpg" alt="" />
       </article>
     </section>
-    
-
 
     <div class="block block--dark block--skewed-right showcase">
       <div class="block__header">
-        <h2 class="showcase__heading">User-friendly Control Panel</h3>
+        <h2 class="showcase__heading">User-friendly Control Panel</h2>
       </div>
-    
+
       <div class="grid grid-showcase">
         <div class="box-one">
           <picture>
@@ -318,12 +316,15 @@
       </div>
     </div>
 
-    <div class="container">
-      <header class="block__header">
-        <h2>What our Customers are Saying</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, itaque!</p>
-      </header>
-      <div class=" card testimonial">
+    <div class="container testimonials">
+      <div class="block__header">
+        <h2 class="testimonial__heading">What our Customers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis,
+          itaque!
+        </p>
+      </div>
+      <div class="card testimonial">
         <div class="grid grid--1x2">
           <div class="testimonial__image">
             <img src="images/testimonial.jpg" alt="A happy, smiling customer" />
@@ -333,11 +334,11 @@
               </svg>
             </span>
           </div>
-      
+
           <blockquote class="quote">
             <p class="quote__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis Lorem
-              ipsum dolor sit amet.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              Lorem ipsum dolor sit amet.
             </p>
             <footer>
               <div class="media">
@@ -357,17 +358,14 @@
       </div>
     </div>
 
-   
-    
     <footer class="block block--dark footer">
-
-      <div class=" callout callout--primary callout-container">
+      <div class="callout callout--primary callout-container">
         <div class="grid grid--1x2">
           <div class="callout__content">
             <h3 class="callout__heading">Ready To Get Started?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, in?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              in? Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
           <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
@@ -376,10 +374,10 @@
 
       <div class="container grid footer__grid">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">products</h2>
             <p class="collapsible__toggler">></p>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="items">
               <li><a href="#">WordPress Hosting</a></li>
@@ -390,12 +388,12 @@
             </ul>
           </div>
         </section>
-    
+
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">company</h2>
             <p class="collapsible__toggler">></p>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="items">
               <li><a href="#">WordPress Hosting</a></li>
@@ -406,12 +404,12 @@
             </ul>
           </div>
         </section>
-    
+
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">domains</h2>
             <p class="collapsible__toggler">></p>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="items">
               <li><a href="#">WordPress Hosting</a></li>
@@ -422,12 +420,12 @@
             </ul>
           </div>
         </section>
-    
+
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">support</h2>
             <p class="collapsible__toggler">></p>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="items">
               <li><a href="#">WordPress Hosting</a></li>
@@ -438,15 +436,18 @@
             </ul>
           </div>
         </section>
-    
+
         <section class="footer__brand">
           <img src="images/logo.svg" alt="" />
           <p class="footer__copyright">Copyright &copy; 2021.</p>
         </section>
       </div>
     </footer>
-    
 
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

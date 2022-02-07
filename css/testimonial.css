@@ -3,6 +3,10 @@
   margin-bottom: 15rem;
 }
 
+.testimonials {
+  padding-top: 3rem;
+}
+
 .testimonial__image {
   position: relative;
 }
@@ -15,6 +19,10 @@
   position: absolute;
   top: 3rem;
   right: -32px;
+}
+
+.testimonial__heading {
+  padding: 0 1rem;
 }
 
 @media screen and (min-width: 768px) {
